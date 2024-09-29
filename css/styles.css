@@ -83,7 +83,7 @@ h3 {
 
 .menu-link::after {
     content: "";
-    width: 100px;
+    width: 100%;
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -305,6 +305,7 @@ h3 {
 .social-network-item {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-network-link {
@@ -361,6 +362,9 @@ h3 {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-item:hover>.portfolio-img-text {
     transform: translateY(0%);
 }
 
