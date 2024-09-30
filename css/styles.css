@@ -364,9 +364,6 @@ h3 {
                 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item:hover>.portfolio-img-text {
-    transform: translateY(0%);
-}
 
 .portfolio-img-container {
     position: relative;
@@ -450,12 +447,12 @@ h3 {
 }
 
 .social-network-text {
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 16px;
 }
 
 .social-network-list-footer {
